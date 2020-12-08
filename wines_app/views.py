@@ -26,6 +26,7 @@ def new_wine(request):
             serialized_wine = WineSerializer(wine).wine_details
             return JsonResponse(data=serialized_wine, status=200)
 
+# edit existing wine
 @csrf_exempt
 def edit_wine(request, wine_id):
     wine = Wine.objects.get(id=wine_id)
@@ -37,6 +38,7 @@ def edit_wine(request, wine_id):
             serialized_wine = WineSerializer(wine).wine_details
             return JsonResponse(data=serialized_wine, status=200)
 
+# delete wine from database
 @csrf_exempt
 def delete_wine(request, wine_id):
     if request.method == "POST":
