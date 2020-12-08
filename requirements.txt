@@ -7,3 +7,44 @@ psycopg2==2.8.6
 pytz==2020.4
 sqlparse==0.4.1
 whitenoise==5.2.0
+
+# {
+#     "wines": [
+#         {
+#             "wine_name": "Yellow Tail",
+#             "price": "5.99",
+#             "varietal": "Cabernet Sauvegnon",
+#             "description": "Cheap but good enough."
+#         },
+#         {
+#             "wine_name": "Barefoot",
+#             "price": "4.99",
+#             "varietal": "Pinot Noir",
+#             "description": "Very cheap, only OK."
+#         },
+#         {
+#             "wine_name": "Robert Mondavi",
+#             "price": "8.99",
+#             "varietal": "Merlot",
+#             "description": "Pretty cheap, not bad."
+#         },
+#         {
+#             "wine_name": "Two Buck Chuck",
+#             "price": "1.99",
+#             "varietal": "Hard to say",
+#             "description": "Almost free, pretty gross."
+#         },
+#         {
+#             "wine_name": "Chateau Plateun",
+#             "price": "89.99",
+#             "varietal": "Merlot",
+#             "description": "Expensive, but worth it."
+#         },
+#         {
+#             "wine_name": "Coding Juice",
+#             "price": "19.99",
+#             "varietal": "Red",
+#             "description": "Pricy, but so good."
+#         }
+#     ]
+# }

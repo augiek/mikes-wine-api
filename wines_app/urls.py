@@ -1,6 +1,7 @@
 from django.urls import path
 from . import views
 
+# wine URLs
 urlpatterns = [
     path('', views.wine_list, name='wine_list'),
     path('new', views.new_wine, name='new_wine'),
